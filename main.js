@@ -12,7 +12,7 @@ img_x = 100;
 img_y = 100;
 
 function add() {
-    var img_imgTag = new Image(); //defining a variable with a new image
+    img_imgTag = new Image(); //defining a variable with a new image
     img_imgTag.onload = uploadimg; // setting a function, onloading this variable
     img_imgTag.src = img_image; // load image
 }
